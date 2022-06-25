@@ -32,19 +32,34 @@ body {
 .dv-bg-none {background-color: unset;}
 .dv-fs-15 {font-size: 15px;}
 .dv-ptb-1 {padding-bottom: 1rem !important;padding-top: 1rem !important;}
+.dv-ptb-5 {padding-bottom: 5rem !important;padding-top: 5rem !important;}
 .dv-prl-3 {padding-right: 3rem !important;padding-left: 3rem !important;}
 .dv-minh-10vh {min-height: 10vh;}
 .dv-minh-90vh {min-height: 90vh;}
 .dv-fs-4vw {font-size: 4vw;}
 .dv-fs-1vw {font-size: 1vw;}
-.dv-text-wheat {color: var(--wheat);}
+.dv-text-wheat {color: var(--wheat) !important;}
 .dv-home-first-section-swiper .swiper-button-prev:after ,
 .dv-home-first-section-swiper .swiper-button-next:after {font-size: 20px !important;}
+.dv-second-section-main {grid-template-columns: repeat(4, 1fr);}
+.dv-object-fit {object-fit: cover;}
+.dv-second-section-main > img:first-of-type {grid-row: span 2;}
+.dv-second-section-main > div {grid-column: span 3;}
+.dv-wheat-pipe-content {top: 4rem;left: 7rem;}
 .dv-home-first-section-swiper .swiper-button-prev ,
 .dv-home-first-section-swiper .swiper-button-next{
     position: static !important;
     margin-top: 0 !important;
     color: white !important;
+}
+
+.dv-wheat-pipe {
+    background-color: var(--wheat);
+    width: 3px !important;
+    height: 30vh !important;
+    left: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .dv-home-first-section-swiper .swiper-slide {
