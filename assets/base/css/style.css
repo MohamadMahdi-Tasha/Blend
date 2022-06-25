@@ -110,6 +110,8 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     .dv-third-section-slider, .dv-fourth-section-bottom {grid-template-columns: repeat(2, 1fr);}
     .dv-third-section-slider, .dv-fourth-section-bottom > a  {background-size: cover !important;}
     .dv-third-section-slider > a{height: 300px;}
+    .dv-fifth-section > main {display: flex;flex-direction: column;}
+    .dv-fifth-section > main > div {width: 100% !important;}
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
         background-position: bottom;
         background-size: 100vh;
