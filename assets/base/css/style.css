@@ -62,6 +62,8 @@ body > section:first-of-type .swiper-button-next:after {font-size: 20px !importa
 .dv-third-section-slider > a:nth-of-type(3) {background-image: url("../img/third-section/img-3.png");height: 300px;}
 .dv-third-section-slider > a:nth-of-type(4) {background-image: url("../img/third-section/img-4.png");}
 .dv-third-section-slider > a:nth-of-type(5) {background-image: url("../img/third-section/img-5.png");}
+.dv-w-35 {width: 35%;}
+.dv-w-65 {width: 65%;}
 body > section:first-of-type .swiper-button-prev ,
 body > section:first-of-type .swiper-button-next{
     position: static !important;
