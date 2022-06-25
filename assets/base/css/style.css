@@ -82,7 +82,7 @@ body > section:first-of-type .swiper-button-next{
 
 body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     background-image: url("../img/first-section/img-1.png");
-    background-size: 170vh;
+    background-size: 80vw;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -98,3 +98,20 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
 .dv-hover-text-wheat:hover {color: var(--wheat) !important;}
 .dv-hover-path-wheat:hover path{fill: var(--wheat);}
 .dv-hover-bg-wheat:hover {background-color: var(--wheat) !important;}
+
+/*Media Querys*/
+@media (max-width: 991px) {
+    .dv-prl-3, .dv-ptb-5 {padding: 1rem !important;}
+    header > a {display: none !important;}
+    header > div.w-25 {width: 50% !important;}
+    body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
+        background-position: bottom;
+        background-size: 100vh;
+        justify-content: start !important;
+    }
+}
+
+@media (max-width: 767px) {
+    header > ul.d-inline-flex {display: none !important;}
+    header > div.w-25 {width: 100% !important;}
+}
