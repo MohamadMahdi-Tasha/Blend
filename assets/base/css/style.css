@@ -4,7 +4,7 @@
 /*Variables*/
 :root {
     --dark:  #1F1F1F;
-    --lighter-dark: #3a3a3a;
+    --lighter-dark: #2a2a2a;
     --wheat: #FCBBA4;
 }
 
@@ -46,6 +46,7 @@ body {
 .dv-second-section-main > img:first-of-type {grid-row: span 2;}
 .dv-second-section-main > div {grid-column: span 3;}
 .dv-wheat-pipe-content {top: 4rem;left: 7rem;}
+.dv-mb-20 {margin-bottom: 20rem}
 .dv-home-first-section-swiper .swiper-button-prev ,
 .dv-home-first-section-swiper .swiper-button-next{
     position: static !important;
