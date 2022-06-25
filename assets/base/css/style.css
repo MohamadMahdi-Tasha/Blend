@@ -1,10 +1,17 @@
 /*importing Poppins Font*/
 @import url('../fonts/font-poppins.css');
 
+/*Variables*/
+:root {
+    --dark:  #1F1F1F;
+    --lighter-dark: #3a3a3a;
+    --wheat: #FCBBA4;
+}
+
 /*Css Reset*/
 img {pointer-events: none;}
 button {cursor: pointer;}
-a {text-decoration: none;}
+a {text-decoration: none !important;}
 ul,ol, li {margin: 0 !important;}
 
 * {
@@ -14,8 +21,17 @@ ul,ol, li {margin: 0 !important;}
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 12px;
+    background-color: var(--dark) !important;
 }
 
 /*Styles*/
+.dv-bg-lighter-dark {background-color: var(--lighter-dark);}
+.dv-transition {transition: .3s;}
+.dv-bg-none {background-color: unset;}
+.dv-fs-15 {font-size: 15px;}
+
+/*Hover And Active, ...*/
+.dv-hover-text-wheat:hover {color: var(--wheat) !important;}
+.dv-hover-path-wheat:hover path{fill: var(--wheat);}
