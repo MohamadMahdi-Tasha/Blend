@@ -54,7 +54,7 @@
     </header>
     <!--Main Content-->
     <main>
-        <div class="swiper dv-home-first-section-swiper">
+        <div class="swiper dv-home-defualt-swipers">
             <div class="swiper-wrapper">
                 <div class="swiper-slide dv-minh-90vh dv-prl-3 d-flex align-items-start justify-content-center flex-column dv-ptb-1 text-white">
                     <h1 class="dv-fs-4vw">Blend <span class="dv-text-wheat">|</span> Studio</h1>
@@ -143,9 +143,9 @@
 </section>
 <!--Second Section-->
 <section class="dv-prl-3 dv-ptb-5 dv-bg-lighter-dark">
-    <main class="dv-second-section-main d-grid gap-4">
-        <img class="w-100 h-100 dv-object-fit rounded-3" src="assets/base/img/second-section/img-1.png" alt="Image 1">
-        <div class="text-white position-relative">
+    <main class="dv-second-section-main dv-grid-tc-4 d-grid gap-4">
+        <img class="w-100 h-100 dv-object-fit rounded-3 dv-grid-row-2" src="assets/base/img/second-section/img-1.png" alt="Image 1">
+        <div class="text-white position-relative dv-grid-col-3">
             <h1 class="d-inline-flex">Our <div class="dv-wheat-pipe"></div> Studio</h1>
             <div class="position-absolute dv-wheat-pipe-content">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -165,61 +165,40 @@
     </main>
 </section>
 <!--Third Section-->
-<section class="d-none">
+<section class="dv-prl-3 dv-ptb-5">
     <main>
-        <div class="swiper">
+        <div class="swiper dv-home-defualt-swipers">
             <div class="swiper-wrapper">
-                <a href="#" class="swiper-slide">
-                    <div>
-                        <h1>Our <span></span> Projects</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="#">
-                            view all
-                            <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 0.888916L15 0.888917" stroke="#FCBBA4" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div><h1>HOSPITALITY</h1></div>
-                    <div><h1>RESIDENTIAL</h1></div>
-                    <div><h1>COMMERCIAL</h1></div>
-                    <div><h1>RETAIL</h1></div>
-                </a>
-                <a href="#" class="swiper-slide">
-                    <div>
-                        <h1>Our <span></span> Projects</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="#">
-                            view all
-                            <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 0.888916L15 0.888917" stroke="#FCBBA4" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div><h1>HOSPITALITY</h1></div>
-                    <div><h1>RESIDENTIAL</h1></div>
-                    <div><h1>COMMERCIAL</h1></div>
-                    <div><h1>RETAIL</h1></div>
-                </a>
-                <a href="#" class="swiper-slide">
-                    <div>
-                        <h1>Our <span></span> Projects</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="#">
-                            view all
-                            <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 0.888916L15 0.888917" stroke="#FCBBA4" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <div><h1>HOSPITALITY</h1></div>
-                    <div><h1>RESIDENTIAL</h1></div>
-                    <div><h1>COMMERCIAL</h1></div>
-                    <div><h1>RETAIL</h1></div>
-                </a>
+                <div class="swiper-slide d-grid dv-grid-tc-3 dv-third-section-slider gap-4">
+                    <a class="dv-grid-col-2 dv-bg-cover text-white dv-prl-3 dv-ptb-1" href="#">
+                        <h1 class="d-inline-flex">Our <div class="dv-wheat-pipe"></div> Projects</h1>
+                        <div class="position-absolute dv-wheat-pipe-content dv-diffrent">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span class="dv-text-wheat">
+                                view all
+                                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.1113 8.77778L15.0002 4.88889L11.1113 1" fill="#FCBBA4"/>
+                                    <path d="M11.1113 8.77778L15.0002 4.88889L11.1113 1" stroke="#FCBBA4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 4.88892L15 4.88892" stroke="#FCBBA4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </a>
+                    <a class="text-white d-flex align-items-end justify-content-center dv-prl-3 dv-ptb-1" href="#">
+                        <div><h1>HOSPITALITY</h1></div>
+                    </a>
+                    <a class="text-white d-flex align-items-end justify-content-center dv-prl-3 dv-ptb-1" href="#">
+                        <div><h1>RESIDENTIAL</h1></div>
+                    </a>
+                    <a class="text-white d-flex align-items-end justify-content-center dv-prl-3 dv-ptb-1" href="#">
+                        <div><h1>COMMERCIAL</h1></div>
+                    </a>
+                    <a class="text-white d-flex align-items-end justify-content-center dv-prl-3 dv-ptb-1" href="#">
+                        <div><h1>RETAIL</h1></div>
+                    </a>
+                </div>
             </div>
             <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
         </div>
     </main>

@@ -1,5 +1,5 @@
 // Configuring Swiper Js On Sliders
-const homeFirstSectionSwiper = new Swiper('.dv-home-first-section-swiper', {
+const homeFirstSectionSwiper = new Swiper('.dv-home-defualt-swipers', {
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
