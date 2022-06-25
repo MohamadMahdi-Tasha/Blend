@@ -31,7 +31,30 @@ body {
 .dv-transition {transition: .3s;}
 .dv-bg-none {background-color: unset;}
 .dv-fs-15 {font-size: 15px;}
+.dv-ptb-1 {padding-bottom: 1rem !important;padding-top: 1rem !important;}
+.dv-prl-3 {padding-right: 3rem !important;padding-left: 3rem !important;}
+.dv-minh-10vh {min-height: 10vh;}
+.dv-minh-90vh {min-height: 90vh;}
+.dv-fs-4vw {font-size: 4vw;}
+.dv-fs-1vw {font-size: 1vw;}
+.dv-text-wheat {color: var(--wheat);}
+.dv-home-first-section-swiper .swiper-button-prev:after ,
+.dv-home-first-section-swiper .swiper-button-next:after {font-size: 20px !important;}
+.dv-home-first-section-swiper .swiper-button-prev ,
+.dv-home-first-section-swiper .swiper-button-next{
+    position: static !important;
+    margin-top: 0 !important;
+    color: white !important;
+}
+
+.dv-home-first-section-swiper .swiper-slide {
+    background-image: url("../img/first-section/img-1.png");
+    background-size: 170vh;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 /*Hover And Active, ...*/
 .dv-hover-text-wheat:hover {color: var(--wheat) !important;}
 .dv-hover-path-wheat:hover path{fill: var(--wheat);}
+.dv-hover-bg-wheat:hover {background-color: var(--wheat) !important;}
