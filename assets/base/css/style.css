@@ -117,9 +117,7 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     footer > div > div,
     footer > div > div > ul.w-50{width: 100% !important;}
     footer > div {gap: 1rem !important;}
-    .dv-fs-1vw {
-        font-size: 3rem;
-    }
+    .dv-fs-1vw {font-size: 3rem;}
 
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
         background-position: bottom;
@@ -140,4 +138,8 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
 @media (max-width: 575px) {
     .dv-second-section-main, .dv-fourth-section-bottom {grid-template-columns: repeat(1, 1fr);}
     .dv-second-section-main > img:last-of-type{grid-column: span 1;}
+    .dv-third-section-slider.d-grid {
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
