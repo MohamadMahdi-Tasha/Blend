@@ -85,6 +85,13 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     background-position: right;
 }
 
+.dv-fifth-section-image:before {
+    content: 'asdasd';
+    aspect-ratio: 1/1;
+    width: 10px;
+    background-color: red;
+}
+
 /*Hover And Active, ...*/
 .dv-hover-text-wheat:hover {color: var(--wheat) !important;}
 .dv-hover-path-wheat:hover path{fill: var(--wheat);}
