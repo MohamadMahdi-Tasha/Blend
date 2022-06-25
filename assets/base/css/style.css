@@ -46,7 +46,7 @@ body > section:first-of-type .swiper-button-next:after {font-size: 20px !importa
 .dv-grid-col-3 {grid-column: span 3}
 .dv-grid-col-2 {grid-column: span 2;}
 .dv-wheat-pipe-content {top: 4rem;left: 7rem;}
-.dv-wheat-pipe-content.dv-diffrent {left: 10rem;}
+.dv-wheat-pipe-content.dv-diffrent {left: 10rem !important;top: 10rem !important;}
 .dv-mb-20 {margin-bottom: 20rem}
 .aspect-ratio {aspect-ratio: 1/1;}
 .dv-grid-tc-4 {grid-template-columns: repeat(4, 1fr);}
