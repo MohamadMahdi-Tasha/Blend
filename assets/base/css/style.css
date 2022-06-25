@@ -112,6 +112,12 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     .dv-third-section-slider > a{height: 300px;}
     .dv-fifth-section > main {display: flex;flex-direction: column;}
     .dv-fifth-section > main > div {width: 100% !important;}
+    footer > div{display: flex;flex-direction: column;}
+    footer > div > a,
+    footer > div > div,
+    footer > div > div > ul.w-50{width: 100% !important;}
+    footer > div {gap: 1rem !important;}
+
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
         background-position: bottom;
         background-size: 100vh;
