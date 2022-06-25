@@ -1,0 +1,21 @@
+/*importing Poppins Font*/
+@import url('../fonts/font-poppins.css');
+
+/*Css Reset*/
+img {pointer-events: none;}
+button {cursor: pointer;}
+a {text-decoration: none;}
+ul,ol, li {margin: 0 !important;}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+/*Styles*/
