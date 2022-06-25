@@ -101,6 +101,7 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
 
 /*Media Querys*/
 @media (max-width: 991px) {
+    .dv-mb-20 {margin-bottom: 0 !important;}
     .dv-prl-3, .dv-ptb-5 {padding: 1rem !important;}
     header > a {display: none !important;}
     header > div.w-25 {width: 50% !important;}
