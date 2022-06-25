@@ -104,6 +104,9 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     .dv-prl-3, .dv-ptb-5 {padding: 1rem !important;}
     header > a {display: none !important;}
     header > div.w-25 {width: 50% !important;}
+    .dv-second-section-main {grid-template-columns: repeat(3, 1fr);}
+    .dv-second-section-main > .dv-grid-col-3{grid-column: span 2;}
+    .dv-second-section-main > .dv-grid-row-2{grid-row: span 1;}
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
         background-position: bottom;
         background-size: 100vh;
@@ -114,4 +117,13 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
 @media (max-width: 767px) {
     header > ul.d-inline-flex {display: none !important;}
     header > div.w-25 {width: 100% !important;}
+    .dv-second-section-main {grid-template-columns: repeat(2, 1fr);}
+    .dv-second-section-main > .dv-grid-col-3{grid-column: span 1;}
+    .dv-second-section-main > .dv-grid-row-2{grid-row: span 1;}
+    .dv-second-section-main > img:last-of-type{grid-column: span 2;}
+}
+
+@media (max-width: 575px) {
+    .dv-second-section-main {grid-template-columns: repeat(1, 1fr);}
+    .dv-second-section-main > img:last-of-type{grid-column: span 1;}
 }
