@@ -39,8 +39,8 @@ body {
 .dv-fs-4vw {font-size: 4vw;}
 .dv-fs-1vw {font-size: 1vw;}
 .dv-text-wheat {color: var(--wheat) !important;}
-.dv-home-first-section-swiper .swiper-button-prev:after ,
-.dv-home-first-section-swiper .swiper-button-next:after {font-size: 20px !important;}
+body > section:first-of-type .swiper-button-prev:after ,
+body > section:first-of-type .swiper-button-next:after {font-size: 20px !important;}
 .dv-object-fit {object-fit: cover;}
 .dv-grid-row-2 {grid-row: span 2;}
 .dv-grid-col-3 {grid-column: span 3}
@@ -57,8 +57,8 @@ body {
 .dv-third-section-slider > a:nth-of-type(3) {background-image: url("../img/third-section/img-3.png");height: 300px;}
 .dv-third-section-slider > a:nth-of-type(4) {background-image: url("../img/third-section/img-4.png");}
 .dv-third-section-slider > a:nth-of-type(5) {background-image: url("../img/third-section/img-5.png");}
-.dv-home-first-section-swiper .swiper-button-prev ,
-.dv-home-first-section-swiper .swiper-button-next{
+body > section:first-of-type .swiper-button-prev ,
+body > section:first-of-type .swiper-button-next{
     position: static !important;
     margin-top: 0 !important;
     color: white !important;
