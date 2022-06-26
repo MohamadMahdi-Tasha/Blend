@@ -66,6 +66,7 @@ body > section:first-of-type .swiper-button-next:after {font-size: 20px !importa
 .dv-third-section-slider > a:nth-of-type(5) {background-image: url("../img/third-section/img-5.png");}
 .dv-w-35 {width: 35%;}
 .dv-w-65 {width: 65%;}
+.dv-header-link.active {color: var(--wheat) !important;}
 .dv-home-defualt-swipers-with-space.swiper {padding: 2rem;}
 .dv-third-section-slider > a:first-of-type > .dv-wheat-pipe-content.dv-diffrent {top: 10rem !important;}
 body > section:first-of-type .swiper-button-prev ,
