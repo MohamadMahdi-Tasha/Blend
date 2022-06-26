@@ -46,7 +46,7 @@ body > section:first-of-type .swiper-button-next:after {font-size: 20px !importa
 .dv-grid-col-3 {grid-column: span 3}
 .dv-grid-col-2 {grid-column: span 2;}
 .dv-wheat-pipe-content {top: 4rem;left: 7rem;}
-.dv-wheat-pipe-content.dv-diffrent {left: 10rem !important;top: 10rem !important;}
+.dv-wheat-pipe-content.dv-diffrent {left: 10rem !important;top: 5rem !important;}
 .dv-mb-20 {margin-bottom: 20rem}
 .aspect-ratio {aspect-ratio: 1/1;}
 .dv-grid-tc-4 {grid-template-columns: repeat(4, 1fr);}
@@ -74,7 +74,7 @@ body > section:first-of-type .swiper-button-next{
 .dv-wheat-pipe {
     background-color: var(--wheat);
     width: 3px !important;
-    height: 30vh !important;
+    min-height: 30vh !important;
     left: 50%;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -121,8 +121,7 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     .dv-fs-1vw {font-size: 3rem;}
 
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
-        background-position: bottom;
-        background-size: 100vh;
+        background-size: cover;
         justify-content: start !important;
     }
 }
@@ -142,5 +141,16 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     .dv-third-section-slider.d-grid {
         display: flex !important;
         flex-direction: column !important;
+    }
+}
+
+@media (max-height: 507px) {
+    body > section:nth-of-type(4) > main > div:first-of-type {margin-bottom: 10rem ;}
+}
+
+@media (max-height: 932px) {
+    .dv-second-section-main > div:first-of-type,
+    .dv-fifth-section > main > div:last-of-type{
+        margin-bottom: 10rem;
     }
 }
