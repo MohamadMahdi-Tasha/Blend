@@ -6,6 +6,7 @@
     --dark:  #1F1F1F;
     --lighter-dark: #2a2a2a;
     --wheat: #FCBBA4;
+    --pink: #F1DDC9;
 }
 
 /*Css Reset*/
@@ -64,6 +65,7 @@ body > section:first-of-type .swiper-button-next:after {font-size: 20px !importa
 .dv-third-section-slider > a:nth-of-type(5) {background-image: url("../img/third-section/img-5.png");}
 .dv-w-35 {width: 35%;}
 .dv-w-65 {width: 65%;}
+.dv-home-defualt-swipers-with-space.swiper {padding: 2rem;}
 body > section:first-of-type .swiper-button-prev ,
 body > section:first-of-type .swiper-button-next{
     position: static !important;
@@ -87,11 +89,15 @@ body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
     background-position: right;
 }
 
-.dv-fifth-section-image:before {
-    content: 'asdasd';
-    aspect-ratio: 1/1;
-    width: 10px;
-    background-color: red;
+.dv-fifth-section .swiper-slide:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pink);
+    padding: 1rem;
+    transform: translateY(-30px) translateX(-30px);
+    z-index: -1;
 }
 
 /*Hover And Active, ...*/
