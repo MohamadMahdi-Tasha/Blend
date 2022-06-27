@@ -181,12 +181,13 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     .dv-second-section-main > .dv-grid-col-3{grid-column: span 1;}
     .dv-second-section-main > .dv-grid-row-2{grid-row: span 1;}
     .dv-second-section-main > img:last-of-type{grid-column: span 2;}
+    .dv-nav-header-links.d-none {display: block !important;}
+    #dv-nav {width: 75% !important;}
 }
 
 @media (max-width: 575px) {
     .dv-second-section-main, .dv-fourth-section-bottom {grid-template-columns: repeat(1, 1fr);}
     .dv-second-section-main > img:last-of-type{grid-column: span 1;}
-    #dv-nav {width: 75% !important;}
     footer > div > div > ul.justify-content-between {justify-content: center !important;}
     footer > div > div > ul.align-items-center {align-items: start !important;}
     footer > div > div > ul{gap: 1rem !important}
