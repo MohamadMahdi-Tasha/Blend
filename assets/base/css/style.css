@@ -103,7 +103,7 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     height: 100%;
     background-color: var(--pink);
     padding: 1rem;
-    transform: translateY(-30px) translateX(-30px);
+    transform: translateY(-20px) translateX(-20px);
     z-index: -1;
 }
 
