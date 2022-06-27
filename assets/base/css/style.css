@@ -7,6 +7,7 @@
     --lighter-dark: #2a2a2a;
     --wheat: #FCBBA4;
     --pink: #F1DDC9;
+    --darker-wheat: #d39c89;
 }
 
 /*Css Reset*/
@@ -80,6 +81,18 @@ body {
 .dv-home-first-section .swiper-button-next, .dv-third-section-main .swiper-button-next, .dv-fifth-section-main .swiper-button-next , .dv-projects-swiper-slide > div:last-of-type .swiper-button-next{margin-left: 1rem;}
 .dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-prev:after{background-image: url("../img/icons/icon-left-arrow.svg") !important;}
 .dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-next:after{background-image: url("../img/icons/icon-arrow-right.svg") !important;}
+.dv-pointer-event-none {pointer-events: none;}
+.dv-bg-wheat{background-color: var(--wheat);}
+.dv-header-links {z-index: 1000;transform: translateX(-30px)}
+.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after,.dv-projects-swiper-slide > div:last-of-type .swiper-button-prev:after,
+.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-next:after{
+    content: '' !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    aspect-ratio: 1/1 !important;
+    width: 5rem !important;
+}
 
 .dv-wheat-pipe {
     background-color: var(--wheat);
@@ -108,20 +121,21 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     z-index: -1;
 }
 
-.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after,.dv-projects-swiper-slide > div:last-of-type .swiper-button-prev:after,
-.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-next:after{
-    content: '' !important;
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    aspect-ratio: 1/1 !important;
-    width: 5rem !important;
+.dv-header-traingles {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--wheat);
+    transform: translateX(30px);
 }
 
 /*Hover And Active, ...*/
 .dv-hover-text-wheat:hover {color: var(--wheat) !important;}
 .dv-hover-path-wheat:hover path{fill: var(--wheat);}
 .dv-hover-bg-wheat:hover {background-color: var(--wheat) !important;}
+.dv-bg-hover-wheat-darker:hover{background-color: var(--darker-wheat);}
+.dv-header-link:hover ~ .dv-header-links , .dv-header-links:hover{opacity: 1 !important;pointer-events: visible !important;}
 
 /*Media Querys*/
 @media (max-width: 991px) {
