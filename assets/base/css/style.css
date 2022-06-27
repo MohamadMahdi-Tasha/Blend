@@ -131,6 +131,10 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
 
 /*Media Querys*/
 @media (max-width: 991px) {
+    .dv-wheat-pipe {min-height: 100% !important;position: static !important;}
+    .dv-wheat-pipe-content.position-absolute{left: 0;position: static !important;}
+    .dv-third-section-slider > a:first-of-type > .dv-wheat-pipe-content.dv-diffrent,
+    .dv-wheat-pipe-content a.dv-diffrent {top: 0 !important;left: 0 !important;}
     .dv-mb-20 {margin-bottom: 0 !important;}
     .dv-prl-3, .dv-ptb-5 {padding: 1rem !important;}
     header > a {display: none !important;}
@@ -175,8 +179,3 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
         flex-direction: column !important;
     }
 }
-
-@media (max-height: 507px) {  body > section:nth-of-type(4) > main > div:first-of-type {margin-bottom: 10rem ;}  }
-@media (max-height: 932px) {  .dv-second-section-main > div:first-of-type, .dv-fifth-section > main > div:last-of-type{margin-bottom: 10rem;}  }
-@media (max-height: 268px) {  .dv-second-section-main > div:first-of-type {margin-bottom: 20rem;}  }
-@media (max-height: 222px) {  .dv-fifth-section > main > div:last-of-type{margin-bottom: 20rem;}  }
