@@ -87,6 +87,8 @@ body {
 .dv-bg-dark  {background-color: rgba(0,0,0,.2);}
 #dv-nav-dark-bg[data-opened='false']{left: 100%;}
 #dv-nav-dark-bg[data-opened='true']{left: 0;}
+#dv-nav[data-opened='false']{left: 100%;}
+#dv-nav[data-opened='true']{left: 0;}
 .dv-scroll-hidden::-webkit-scrollbar{display: none !important;}
 .dv-scroll-hidden::-moz-viewport-scroll{display: none !important;}
 .dv-mr-1 {margin-right: 1rem;}
@@ -168,6 +170,7 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     footer > div > div > ul.w-50{width: 100% !important;}
     footer > div {gap: 1rem !important;}
     .dv-fs-1vw {font-size: 3rem;}
+    #dv-nav {width: 50% !important;}
 
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
         background-size: cover !important;
@@ -187,6 +190,7 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
 @media (max-width: 575px) {
     .dv-second-section-main, .dv-fourth-section-bottom {grid-template-columns: repeat(1, 1fr);}
     .dv-second-section-main > img:last-of-type{grid-column: span 1;}
+    #dv-nav {width: 75% !important;}
     footer > div > div > ul.justify-content-between {justify-content: center !important;}
     footer > div > div > ul.align-items-center {align-items: start !important;}
     footer > div > div > ul{gap: 1rem !important}
