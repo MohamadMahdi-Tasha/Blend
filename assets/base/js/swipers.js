@@ -3,7 +3,6 @@ const config = {
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
-        dynamicBullets: true,
     },
     navigation: {
         prevEl: '.swiper-button-prev',

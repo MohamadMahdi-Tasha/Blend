@@ -42,8 +42,6 @@ body {
 .dv-fs-4vw {font-size: 4vw;}
 .dv-fs-1vw {font-size: 1vw;}
 .dv-text-wheat {color: var(--wheat) !important;}
-body > section:first-of-type .swiper-button-prev:after ,
-body > section:first-of-type .swiper-button-next:after {font-size: 20px !important;}
 .dv-object-fit {object-fit: cover;}
 .dv-grid-row-2 {grid-row: span 2;}
 .dv-grid-col-3 {grid-column: span 3}
@@ -109,6 +107,23 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     z-index: -1;
 }
 
+.dv-home-first-section .swiper-pagination{position: static !important;width: auto !important;}
+.dv-home-first-section .swiper-pagination .swiper-pagination-bullet {width: 5px !important;height: 5px !important;background-color: #ffffff !important;}
+.dv-home-first-section .swiper-pagination .swiper-pagination-bullet-active {background-color: white !important;}
+.dv-home-first-section .swiper-button-prev {margin-right: 1rem;}
+.dv-home-first-section .swiper-button-next {margin-left: 1rem;}
+.dv-home-first-section .swiper-button-prev:after  {background-image: url("../img/icons/icon-left-arrow.svg");}
+.dv-home-first-section .swiper-button-next:after  {background-image: url("../img/icons/icon-arrow-right.svg");}
+.dv-home-first-section .swiper-button-prev:after ,
+.dv-home-first-section .swiper-button-next:after {
+    content: '' !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 5rem;
+}
+
 /*Hover And Active, ...*/
 .dv-hover-text-wheat:hover {color: var(--wheat) !important;}
 .dv-hover-path-wheat:hover path{fill: var(--wheat);}
@@ -161,14 +176,7 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     }
 }
 
-@media (max-height: 507px) {
-    body > section:nth-of-type(4) > main > div:first-of-type {margin-bottom: 10rem ;}
-}
-
-@media (max-height: 932px) {
-    .dv-second-section-main > div:first-of-type,
-    .dv-fifth-section > main > div:last-of-type{margin-bottom: 10rem;}
-}
-
+@media (max-height: 507px) {  body > section:nth-of-type(4) > main > div:first-of-type {margin-bottom: 10rem ;}  }
+@media (max-height: 932px) {  .dv-second-section-main > div:first-of-type, .dv-fifth-section > main > div:last-of-type{margin-bottom: 10rem;}  }
 @media (max-height: 268px) {  .dv-second-section-main > div:first-of-type {margin-bottom: 20rem;}  }
 @media (max-height: 222px) {  .dv-fifth-section > main > div:last-of-type{margin-bottom: 20rem;}  }
