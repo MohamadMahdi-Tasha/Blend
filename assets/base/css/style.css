@@ -73,12 +73,13 @@ body {
 .dv-no-bg {background-image: none !important;}
 .dv-home-defualt-swipers-with-space.swiper {padding: 2rem;}
 .dv-third-section-slider > a:first-of-type > .dv-wheat-pipe-content.dv-diffrent {top: 10rem !important;}
-body > section:first-of-type .swiper-button-prev ,
-body > section:first-of-type .swiper-button-next{
-    position: static !important;
-    margin-top: 0 !important;
-    color: white !important;
-}
+.dv-home-first-section .swiper-pagination, .dv-third-section-main .swiper-pagination, .dv-fifth-section-main .swiper-pagination, .dv-projects-swiper-slide > div:last-of-type .swiper-pagination {position: static !important;width: auto !important;}
+.dv-home-first-section .swiper-pagination-bullet, .dv-third-section-main .swiper-pagination-bullet, .dv-fifth-section-main .swiper-pagination .swiper-pagination-bullet, .dv-projects-swiper-slide > div:last-of-type .swiper-pagination-bullet{width: 5px !important;height: 5px !important;background-color: #ffffff !important;}
+.dv-home-first-section .swiper-pagination-bullet-active, .dv-third-section-main .swiper-pagination-bullet-active, .dv-fifth-section-main .swiper-pagination-bullet-active, .dv-projects-swiper-slide > div:last-of-type .swiper-pagination-bullet-active {background-color: white !important;}
+.dv-home-first-section .swiper-button-prev, .dv-third-section-main .swiper-button-prev, .dv-fifth-section-main .swiper-button-prev , .dv-projects-swiper-slide > div:last-of-type .swiper-button-prev{margin-right: 1rem;}
+.dv-home-first-section .swiper-button-next, .dv-third-section-main .swiper-button-next, .dv-fifth-section-main .swiper-button-next , .dv-projects-swiper-slide > div:last-of-type .swiper-button-next{margin-left: 1rem;}
+.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-prev:after{background-image: url("../img/icons/icon-left-arrow.svg") !important;}
+.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-next:after{background-image: url("../img/icons/icon-arrow-right.svg") !important;}
 
 .dv-wheat-pipe {
     background-color: var(--wheat);
@@ -107,21 +108,14 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     z-index: -1;
 }
 
-.dv-home-first-section .swiper-pagination, .dv-third-section-main .swiper-pagination, .dv-fifth-section-main .swiper-pagination{position: static !important;width: auto !important;}
-.dv-home-first-section .swiper-pagination-bullet, .dv-third-section-main .swiper-pagination-bullet, .dv-fifth-section-main .swiper-pagination .swiper-pagination-bullet {width: 5px !important;height: 5px !important;background-color: #ffffff !important;}
-.dv-home-first-section .swiper-pagination-bullet-active, .dv-third-section-main .swiper-pagination-bullet-active, .dv-fifth-section-main .swiper-pagination-bullet-active {background-color: white !important;}
-.dv-home-first-section .swiper-button-prev, .dv-third-section-main .swiper-button-prev, .dv-fifth-section-main .swiper-button-prev {margin-right: 1rem;}
-.dv-home-first-section .swiper-button-next, .dv-third-section-main .swiper-button-next, .dv-fifth-section-main .swiper-button-next {margin-left: 1rem;}
-.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after  {background-image: url("../img/icons/icon-left-arrow.svg");}
-.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after  {background-image: url("../img/icons/icon-arrow-right.svg");}
-.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after ,
-.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after {
+.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after,.dv-projects-swiper-slide > div:last-of-type .swiper-button-prev:after,
+.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-projects-swiper-slide > div:last-of-type .swiper-button-next:after{
     content: '' !important;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    aspect-ratio: 1/1;
-    width: 5rem;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    aspect-ratio: 1/1 !important;
+    width: 5rem !important;
 }
 
 /*Hover And Active, ...*/
