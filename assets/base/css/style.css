@@ -107,15 +107,15 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     z-index: -1;
 }
 
-.dv-home-first-section, .dv-third-section-main .swiper-pagination{position: static !important;width: auto !important;}
-.dv-home-first-section, .dv-third-section-main .swiper-pagination .swiper-pagination-bullet {width: 5px !important;height: 5px !important;background-color: #ffffff !important;}
-.dv-home-first-section, .dv-third-section-main .swiper-pagination .swiper-pagination-bullet-active {background-color: white !important;}
-.dv-home-first-section, .dv-third-section-main .swiper-button-prev {margin-right: 1rem;}
-.dv-home-first-section, .dv-third-section-main .swiper-button-next {margin-left: 1rem;}
-.dv-home-first-section, .dv-third-section-main .swiper-button-prev:after  {background-image: url("../img/icons/icon-left-arrow.svg");}
-.dv-home-first-section, .dv-third-section-main .swiper-button-next:after  {background-image: url("../img/icons/icon-arrow-right.svg");}
-.dv-home-first-section, .dv-third-section-main .swiper-button-prev:after ,
-.dv-home-first-section, .dv-third-section-main .swiper-button-next:after {
+.dv-home-first-section .swiper-pagination, .dv-third-section-main .swiper-pagination, .dv-fifth-section-main .swiper-pagination{position: static !important;width: auto !important;}
+.dv-home-first-section .swiper-pagination-bullet, .dv-third-section-main .swiper-pagination-bullet, .dv-fifth-section-main .swiper-pagination .swiper-pagination-bullet {width: 5px !important;height: 5px !important;background-color: #ffffff !important;}
+.dv-home-first-section .swiper-pagination-bullet-active, .dv-third-section-main .swiper-pagination-bullet-active, .dv-fifth-section-main .swiper-pagination-bullet-active {background-color: white !important;}
+.dv-home-first-section .swiper-button-prev, .dv-third-section-main .swiper-button-prev, .dv-fifth-section-main .swiper-button-prev {margin-right: 1rem;}
+.dv-home-first-section .swiper-button-next, .dv-third-section-main .swiper-button-next, .dv-fifth-section-main .swiper-button-next {margin-left: 1rem;}
+.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after  {background-image: url("../img/icons/icon-left-arrow.svg");}
+.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after  {background-image: url("../img/icons/icon-arrow-right.svg");}
+.dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after ,
+.dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after {
     content: '' !important;
     background-size: contain;
     background-position: center;
