@@ -145,6 +145,7 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
 
 /*Media Querys*/
 @media (max-width: 991px) {
+    #dv-nav {padding: 1rem !important;}
     .dv-wheat-pipe {min-height: 100% !important;position: static !important;}
     .dv-wheat-pipe-content.position-absolute{left: 0;position: static !important;}
     .dv-third-section-slider > a:first-of-type > .dv-wheat-pipe-content.dv-diffrent,
