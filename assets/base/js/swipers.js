@@ -27,8 +27,9 @@ const projectsSwiperSlide = new Swiper('.dv-projects-swiper-slide', {
     slidesPerView:4,
     breakpoints: {
         991: {slidesPerView: 4,},
+        767:{slidesPerView: 3,},
         575: {slidesPerView: 2,},
-        1:{slidesPerView: 1,},
+        1: {slidesPerView: 1,},
     },
     pagination: {
         el: '.swiper-pagination',
