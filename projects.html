@@ -25,9 +25,9 @@
 </head>
 <body class="dv-overflowx-hidden">
 <!--Dark Bg Of Right Sides Nav-->
-<div class="fixed-top w-100 h-100 dv-transition" id="dv-nav-dark-bg" data-opened="true"></div>
+<div class="fixed-top w-100 h-100 dv-bg-dark dv-transition" id="dv-nav-dark-bg" data-opened="true"></div>
 <!--Right Side Nav-->
-<nav data-opened="true" id="dv-nav" class="fixed-top w-25 dv-bg-body-dark h-100 overflow-scroll dv-scroll-hidden p-4 shadow-lg">
+<nav id="dv-nav" class="fixed-top w-25 dv-transition dv-bg-body-dark h-100 overflow-scroll dv-scroll-hidden p-4 shadow-lg" data-opened="true">
     <!--Top Side Image-->
     <img src="assets/base/img/img-logo.svg" alt="Logo" class="p-3 rounded-2 bg-warning mb-5">
     <!--Analytics List-->
@@ -141,7 +141,7 @@
         </ul>
         <!--Right Side-->
         <div class="w-25 d-flex justify-content-end align-items-center">
-            <button class="dv-bg-none p-2 border-0 dv-hover-path-wheat dv-transition">
+            <button class="dv-bg-none p-2 border-0 dv-hover-path-wheat dv-transition" id="dv-nav-toggle">
                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1_201)"><g clip-path="url(#clip1_1_201)">
                             <path class="dv-transition" d="M22.3388 18.4642L2.43796 18.4642C1.89352 18.4642 1.46429 18.9222 1.46429 19.4642C1.46429 20.0063 1.89352 20.4642 2.43796 20.4642L22.3388 20.4642C22.8833 20.4642 23.3125 20.0063 23.3125 19.4642C23.3125 18.9222 22.8833 18.4642 22.3388 18.4642Z" fill="white" stroke="white" stroke-width="0.5"/>
                             <path class="dv-transition" d="M22.3125 11.8215L11.8125 11.8215C11.2619 11.8215 10.8125 12.271 10.8125 12.8215C10.8125 13.3721 11.2619 13.8215 11.8125 13.8215L22.3125 13.8215C22.8631 13.8215 23.3125 13.3721 23.3125 12.8215C23.3125 12.271 22.8631 11.8215 22.3125 11.8215Z" fill="white" stroke="white" stroke-width="0.5"/><path class="dv-transition" d="M22.3388 5.17847L2.43796 5.17847C1.89352 5.17847 1.46429 5.63639 1.46429 6.17847C1.46429 6.72054 1.89352 7.17847 2.43796 7.17847L22.3388 7.17847C22.8833 7.17847 23.3125 6.72054 23.3125 6.17847C23.3125 5.63639 22.8833 5.17847 22.3388 5.17847Z" fill="white" stroke="white" stroke-width="0.5"/>
@@ -190,4 +190,5 @@
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
 <script src="assets/base/js/swipers.js"></script>
+<script src="assets/base/js/nav.js"></script>
 </html>

@@ -85,10 +85,8 @@ body {
 .dv-bg-wheat{background-color: var(--wheat);}
 .dv-header-links {z-index: 1000;transform: translateX(-30px)}
 .dv-bg-dark  {background-color: rgba(0,0,0,.2);}
-#dv-nav-dark-bg[data-opened='false']{left: 100%;}
-#dv-nav-dark-bg[data-opened='true']{left: 0;}
-#dv-nav[data-opened='false']{left: 100%;}
-#dv-nav[data-opened='true']{left: 0;}
+#dv-nav-dark-bg[data-opened='false'],#dv-nav[data-opened='false']{left: -100%;}
+#dv-nav-dark-bg[data-opened='true'], #dv-nav[data-opened='true']{left: 0;}
 .dv-scroll-hidden::-webkit-scrollbar{display: none !important;}
 .dv-scroll-hidden::-moz-viewport-scroll{display: none !important;}
 .dv-mr-1 {margin-right: 1rem;}
