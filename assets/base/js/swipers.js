@@ -25,6 +25,7 @@ const homeFirstSectionSwiperWithSpace = new Swiper('.dv-home-defualt-swipers-wit
 const sliderWith4Slides = new Swiper('.dv-slider-4-slide', {
     slidesPerView: 4,
     spaceBetween: 10,
+    breakpoints: {991: {slidesPerView: 4,}, 767: {slidesPerView: 3,}, 575: {slidesPerView: 2,}, 1: {slidesPerView: 1,},},
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',

@@ -86,6 +86,11 @@ body {
 .dv-mr-1 {margin-right: 1rem;}
 .dv-bg-body-dark {background-color: var(--dark);}
 .dv-nav-header-links > li.active button {background-color: var(--lighter-dark) !important;color: var(--wheat) !important;}
+.dv-shop-page-slider .swiper-slide {aspect-ratio: 1/1.5;}
+.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(1), .dv-shop-page-slider .swiper-slide:nth-of-type(5) {background-image: url('../img/shop-page/img-1.png');}
+.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(2), .dv-shop-page-slider .swiper-slide:nth-of-type(6) {background-image: url('../img/shop-page/img-2.png');}
+.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(3), .dv-shop-page-slider .swiper-slide:nth-of-type(7) {background-image: url('../img/shop-page/img-3.png');}
+.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(4), .dv-shop-page-slider .swiper-slide:nth-of-type(8) {background-image: url('../img/shop-page/img-4.png');}
 .dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after,.dv-shop-page-slider .swiper-button-prev:after,
 .dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-shop-page-slider .swiper-button-next:after{
     content: '' !important;
@@ -131,12 +136,6 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     border-bottom: 10px solid var(--wheat);
     transform: translateX(30px);
 }
-
-.dv-shop-page-slider .swiper-slide {aspect-ratio: 1/1.5;}
-.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(1), .dv-shop-page-slider .swiper-slide:nth-of-type(5) {background-image: url('../img/shop-page/img-1.png');}
-.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(2), .dv-shop-page-slider .swiper-slide:nth-of-type(6) {background-image: url('../img/shop-page/img-2.png');}
-.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(3), .dv-shop-page-slider .swiper-slide:nth-of-type(7) {background-image: url('../img/shop-page/img-3.png');}
-.dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(4), .dv-shop-page-slider .swiper-slide:nth-of-type(8) {background-image: url('../img/shop-page/img-4.png');}
 
 /*Hover And Active, ...*/
 .dv-hover-text-wheat:hover {color: var(--wheat) !important;}
