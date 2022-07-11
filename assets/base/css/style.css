@@ -1,5 +1,5 @@
 /*importing Poppins Font*/
-@import url('../fonts/font-poppins.css');
+@import url('../fonts/font.css');
 
 /*Variables*/
 :root {
@@ -26,6 +26,7 @@ body {
     font-family: 'Poppins', sans-serif !important;
     font-size: 12px;
     background-color: var(--dark) !important;
+    font-weight: 400;
     scroll-behavior: smooth;
 }
 
@@ -34,14 +35,11 @@ body {
 .dv-overflowx-hidden {overflow-x: hidden;}
 .dv-transition {transition: .3s;}
 .dv-bg-none {background-color: unset;}
-.dv-fs-15 {font-size: 15px;}
 .dv-ptb-1 {padding-bottom: 1rem !important;padding-top: 1rem !important;}
 .dv-ptb-5 {padding-bottom: 5rem !important;padding-top: 5rem !important;}
 .dv-prl-3 {padding-right: 3rem !important;padding-left: 3rem !important;}
 .dv-minh-10vh {min-height: 10vh;}
 .dv-minh-90vh {min-height: 90vh;}
-.dv-fs-4vw {font-size: 4vw;}
-.dv-fs-1vw {font-size: 1vw;}
 .dv-text-wheat {color: var(--wheat) !important;}
 .dv-object-fit {object-fit: cover;}
 .dv-grid-row-2 {grid-row: span 2;}
@@ -66,7 +64,10 @@ body {
 .dv-third-section-slider > a:nth-of-type(5) {background-image: url("../img/third-section/img-5.png");}
 .dv-w-35 {width: 35%;}
 .dv-w-65 {width: 65%;}
-.dv-header-link.active {color: var(--wheat) !important;}
+.dv-fw-bold {font-weight: 700 !important;}
+.dv-fw-light {font-weight: 400 !important;}
+.dv-fw-normal {font-weight: 600 !important;}
+.dv-header-link.active {color: var(--wheat) !important;font-weight: 700 !important;}
 .dv-no-bg {background-image: none !important;}
 .dv-home-defualt-swipers-with-space.swiper {padding: 2rem;}
 .dv-third-section-slider > a:first-of-type > .dv-wheat-pipe-content.dv-diffrent {top: 10rem !important;}
@@ -84,6 +85,7 @@ body {
 .dv-scroll-hidden::-webkit-scrollbar{display: none !important;}
 .dv-scroll-hidden::-moz-viewport-scroll{display: none !important;}
 .dv-mr-1 {margin-right: 1rem;}
+.dv-fs-73 {font-size: 73px;}
 .dv-bg-body-dark {background-color: var(--dark);}
 .dv-nav-header-links > li.active button {background-color: var(--lighter-dark) !important;color: var(--wheat) !important;}
 .dv-shop-page-slider .swiper-slide {aspect-ratio: 1/1.5;}
@@ -146,7 +148,6 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
 .dv-hover-path-wheat:hover path{fill: var(--wheat);}
 .dv-hover-bg-wheat:hover {background-color: var(--wheat) !important;}
 .dv-bg-hover-wheat-darker:hover{background-color: var(--darker-wheat);}
-.dv-header-link:hover ~ .dv-header-links , .dv-header-links:hover{opacity: 1 !important;pointer-events: visible !important;}
 .dv-hover-bg-lighter-dark:hover {background-color: var(--lighter-dark);}
 
 /*Media Querys*/
@@ -172,7 +173,6 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
     footer > div > div,
     footer > div > div > ul.w-50{width: 100% !important;}
     footer > div {gap: 1rem !important;}
-    .dv-fs-1vw {font-size: 3rem;}
     #dv-nav {width: 50% !important;}
 
     body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
