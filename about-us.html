@@ -107,10 +107,10 @@
             </button>
         </div>
     </header>
-    <main class="dv-minh-90vh dv-about-us-main d-flex align-items-center justify-content-start dv-prl-3 ">
+    <main id="dv-about-us-main" class="dv-minh-90vh dv-about-us-main dv-transition d-flex align-items-center justify-content-start dv-prl-3 ">
         <div>
             <h1 class="dv-fs-73 dv-fw-normal text-white mb-2">About <span class="dv-text-wheat">|</span> Us</h1>
-            <div class="dv-about-us-main-content">
+            <div class="dv-about-us-main-content dv-transition">
                 <h6 class="dv-fw-normal text-white mb-3">The Blend</h6>
                 <p class="dv-fw-light fs-6 text-white">
                     Established in 2017 by a creative and passionate team of architects and interior designers, Dubai based blend studio has built a significant portfolio of luxury residential and commercial projects, projects that reflect a wide and diverse client base.
@@ -154,4 +154,11 @@
 <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
 <script src="assets/base/js/swipers.js"></script>
 <script src="assets/base/js/nav.js"></script>
+<script>
+    const aboutUsMain = document.getElementById('dv-about-us-main');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 20) {aboutUsMain.classList.add('dv-scrolled');}
+        else {aboutUsMain.classList.remove('dv-scrolled');}
+    })
+</script>
 </html>

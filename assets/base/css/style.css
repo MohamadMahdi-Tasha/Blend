@@ -101,6 +101,8 @@ body {
 .dv-grid-col-1 {grid-column: span 1;}
 .dv-ml-1 {margin-left: 1rem !important;}
 .dv-about-us-main {background-image: url('../img/about-us/img-1.png');}
+#dv-about-us-main.dv-scrolled  .dv-about-us-main-content {margin-right: 24rem;}
+#dv-about-us-main.dv-scrolled {background-size: 100vw;background-position: center;min-height: 150vh !important;}
 .dv-about-us-main-content {margin-left: 24rem;}
 section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-swipers .swiper-slide {background-image: url("../img/first-section/img-1.png");}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(1), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(5) {background-image: url('../img/shop-page/img-1.png');}
