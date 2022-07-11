@@ -102,7 +102,7 @@ body {
 .dv-ml-1 {margin-left: 1rem !important;}
 .dv-about-us-main {background-image: url('../img/about-us/img-1.png');}
 #dv-about-us-main.dv-scrolled  .dv-about-us-main-content {margin-right: 24rem;}
-#dv-about-us-main.dv-scrolled {background-size: 100vw;background-position: center;min-height: 150vh !important;}
+#dv-about-us-main.dv-scrolled {background-size: cover;background-position: center;min-height: 100vh !important;}
 .dv-about-us-main-content {margin-left: 24rem;}
 section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-swipers .swiper-slide {background-image: url("../img/first-section/img-1.png");}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(1), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(5) {background-image: url('../img/shop-page/img-1.png');}
@@ -177,6 +177,8 @@ section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-
 @media (max-width: 1199px) {  .dv-project-single-top-pipe-content {left: 20rem !important;}  }
 @media (max-width: 991px) {
     #dv-nav {padding: 1rem !important;}
+    #dv-about-us-main {background-size: 90vw;}
+    #dv-about-us-main .dv-about-us-main-content{margin-right: 12rem;margin-left: 12rem;}
     .dv-h-90-vh {height: 100vh !important;}
     .dv-single-projects-second-section {grid-template-columns: repeat(2, 1fr);}
     .dv-single-projects-second-section > img:last-of-type {grid-column: span 1 !important}
@@ -223,6 +225,7 @@ section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-
 }
 
 @media (max-width: 767px) {
+    #dv-about-us-main .dv-about-us-main-content{margin-right: 6rem !important;margin-left: 6rem !important;}
     header > ul.d-inline-flex {display: none !important;}
     header > div.w-25 {width: 100% !important;}
     .dv-single-projects-second-section {grid-template-columns: repeat(1, 1fr);}
@@ -239,6 +242,7 @@ section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-
 }
 
 @media (max-width: 575px) {
+    #dv-about-us-main .dv-about-us-main-content{margin-right: auto !important;margin-left: auto !important;}
     .dv-second-section-main, .dv-fourth-section-bottom {grid-template-columns: repeat(1, 1fr);}
     .dv-second-section-main > img:last-of-type{grid-column: span 1;}
     footer > div > div > ul.justify-content-between {justify-content: center !important;}
