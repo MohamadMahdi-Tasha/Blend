@@ -179,15 +179,19 @@ body {
 @media (max-width: 1199px) {  .dv-project-single-top-pipe-content {left: 20rem !important;}  }
 @media (max-width: 991px) {
     #dv-nav {padding: 1rem !important;}
-    #dv-about-us-main {background-size: cover;background-position: center !important}
-    #dv-about-us-main.dv-scrolled {min-height: 100vh !important;}
-    #dv-about-us-main .dv-about-us-main-content{margin-right: 12rem;margin-left: 12rem;}
     .dv-about-us-main > div:first-of-type{margin-top: 0 !important;}
-    .dv-about-us-main-content > div {display: flex;flex-direction: column;}
-    .dv-about-us-main-content > div > div{display: inline-flex !important;flex-direction: row !important;justify-content: start !important;align-items: center !important;}
-    .dv-about-us-main.dv-scrolled > div:first-of-type{margin-top: 0 !important;}
+    .dv-about-us-main {background-size: cover !important;min-height: 100vh !important;background-position: center !important}
+    .dv-about-us-main.dv-h-90-vh {min-height: 100vh !important;height: auto !important;}
+    .dv-about-us-main-content {margin-left: 12rem;margin-right: 12rem;}
+    .dv-about-us-main-content > div {display: inline-flex !important;flex-direction: column !important;gap: 1rem;}
+    .dv-about-us-main-content > div > div{
+        display: inline-flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: start !important;
+    }
 
-    .dv-h-90-vh {height: 100vh !important;}
+
     .dv-single-projects-second-section {grid-template-columns: repeat(2, 1fr);}
     .dv-single-projects-second-section > img:last-of-type {grid-column: span 1 !important}
     .dv-category-slide {background-position: center !important;}
@@ -233,7 +237,6 @@ body {
 }
 
 @media (max-width: 767px) {
-    #dv-about-us-main .dv-about-us-main-content{margin-right: 6rem !important;margin-left: 6rem !important;}
     header > ul.d-inline-flex {display: none !important;}
     header > div.w-25 {width: 100% !important;}
     .dv-single-projects-second-section {grid-template-columns: repeat(1, 1fr);}
@@ -247,12 +250,10 @@ body {
     .dv-second-section-main > img:last-of-type{grid-column: span 2;}
     .dv-nav-header-links.d-none {display: block !important;}
     #dv-nav {width: 75% !important;}
+    .dv-about-us-main-content {margin-left: 0;margin-right: 0;}
 }
 
 @media (max-width: 575px) {
-    #dv-about-us-main .dv-about-us-main-content{margin-right: auto !important;margin-left: auto !important;}
-    .dv-second-section-main, .dv-fourth-section-bottom {grid-template-columns: repeat(1, 1fr);}
-    .dv-second-section-main > img:last-of-type{grid-column: span 1;}
     footer > div > div > ul.justify-content-between {justify-content: center !important;}
     footer > div > div > ul.align-items-center {align-items: start !important;}
     footer > div > div > ul{gap: 1rem !important}
