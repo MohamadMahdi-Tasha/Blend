@@ -95,10 +95,10 @@ body {
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(2), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(6) {background-image: url('../img/shop-page/img-2.png');}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(3), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(7) {background-image: url('../img/shop-page/img-3.png');}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(4), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(8) {background-image: url('../img/shop-page/img-4.png');}
-.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(1), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(5) {background-image: url('../img/projects-page/img-1.png');}
-.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(2), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(6) {background-image: url('../img/projects-page/img-2.png');}
-.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(3), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(7) {background-image: url('../img/projects-page/img-3.png');}
-.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(4), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(8) {background-image: url('../img/projects-page/img-4.png');}
+.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(1), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(5) {background-image: url('../img/third-section/img-1.png');}
+.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(2), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(6) {background-image: url('../img/third-section/img-2.png');}
+.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(3), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(7) {background-image: url('../img/third-section/img-3.png');}
+.dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(4), .dv-shop-page-slider.dv-projects .swiper-slide:nth-of-type(8) {background-image: url('../img/third-section/img-4.png');}
 .dv-home-first-section .swiper-button-prev:after, .dv-third-section-main .swiper-button-prev:after, .dv-fifth-section-main .swiper-button-prev:after,.dv-shop-page-slider .swiper-button-prev:after,
 .dv-home-first-section .swiper-button-next:after, .dv-third-section-main .swiper-button-next:after, .dv-fifth-section-main .swiper-button-next:after, .dv-shop-page-slider .swiper-button-next:after{
     content: '' !important;
