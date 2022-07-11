@@ -99,6 +99,7 @@ body {
 .dv-category-slide:nth-of-type(3) {background-image: url('../img/category/img-3.png');}
 .dv-h-90-vh {height: 90vh !important;}
 .dv-grid-col-1 {grid-column: span 1;}
+.dv-ml-1 {margin-left: 1rem !important;}
 section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-swipers .swiper-slide {background-image: url("../img/first-section/img-1.png");}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(1), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(5) {background-image: url('../img/shop-page/img-1.png');}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(2), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(6) {background-image: url('../img/shop-page/img-2.png');}
@@ -127,8 +128,9 @@ section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-
     margin-left: 1rem;
 }
 
+.dv-about-us-main {background-image: url('../img/about-us/img-1.png');}
 .dv-category-slide, body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-swipers .swiper-slide,
-.dv-project-single-first-section{
+.dv-project-single-first-section, .dv-about-us-main{
     background-size: 80vw;
     background-repeat: no-repeat;
     background-position: right;
