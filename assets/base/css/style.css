@@ -176,7 +176,7 @@ section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-
     .dv-single-projects-second-section {grid-template-columns: repeat(2, 1fr);}
     .dv-single-projects-second-section > img:last-of-type {grid-column: span 1 !important}
     .dv-category-slide {background-position: center !important;}
-    .dv-project-single-first-section {background-size: cover !important;}
+    .dv-project-single-first-section {background-size: cover !important;background-position: center;}
     .dv-category-slide > div:first-of-type{width: 100% !important;}
     .dv-wheat-pipe {min-height: 100% !important;position: static !important;}
     .dv-wheat-pipe-content.position-absolute{left: 0;position: static !important;}
@@ -199,9 +199,11 @@ section.dv-home-first-section:not(.dv-projects-first-section):first-of-type .dv-
     footer > div:first-of-type > div, footer > div:first-of-type > div > ul{flex-direction: column;align-items: start !important;justify-content: start !important;}
     footer > div:first-of-type > div > a.position-absolute{position: static !important;}
     footer > div:first-of-type > div > ul{gap: 1rem !important}
-    footer > div:first-of-type > div > a{margin-bottom: 1rem;}
+    footer > div:first-of-type > div > a{margin-bottom: 1rem !important;}
     .dv-single-projects-second-section.gap-4 {gap: 1rem !important;}
     #dv-nav {width: 50% !important;}
+    .dv-project-single-first-section  h1:first-of-type {display: flex !important;flex-wrap: wrap !important;}
+
     .dv-prl-3, .p-4, .p-3 {
         padding-bottom: 1rem !important;
         padding-right: 1rem !important;
