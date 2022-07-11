@@ -153,6 +153,7 @@ body > section:not(.dv-projects-first-section):first-of-type .dv-home-defualt-sw
 .dv-bg-hover-wheat-darker:hover{background-color: var(--darker-wheat) !important;}
 .dv-bg-focus-wheat-darker:focus{background-color: var(--darker-wheat) !important;}
 .dv-hover-bg-lighter-dark:hover {background-color: var(--lighter-dark);}
+.dv-text-hover-wheat-darker {color: var(--darker-wheat) !important;}
 
 /*Animations*/
 @keyframes drop-down-show { from {opacity: 0;} to {opacity: 1;} }
