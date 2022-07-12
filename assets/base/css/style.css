@@ -179,6 +179,7 @@ body {
 /*Media Querys*/
 @media (max-width: 1199px) {  .dv-project-single-top-pipe-content {left: 20rem !important;}  }
 @media (max-height: 348px) {  .dv-home-second-section-text-grid {margin-bottom: 20rem;}  }
+@media (max-height: 578px) {  .dv-category-slide{min-height: 50rem;}  }
 @media (max-width: 991px) {
     #dv-nav {padding: 1rem !important;}
     .dv-about-us-main > div:first-of-type{margin-top: 0 !important;}
