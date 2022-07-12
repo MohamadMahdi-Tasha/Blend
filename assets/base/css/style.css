@@ -103,7 +103,7 @@ body {
 .dv-about-us-main {background-image: url('../img/about-us/img-1.png');}
 .dv-about-us-main > div:first-of-type{margin-top: 50rem !important;}
 .dv-about-us-paragraph-content {font-size: 18px !important;line-height: 25px !important;}
-.dv-about-us-main.dv-scrolled {background-size: cover !important;background-position: center;height: 100rem !important;background-attachment: fixed;}
+.dv-about-us-main.dv-scrolled {background-position: left;height: auto !important;min-height: auto !important;background-size: cover;}
 .dv-about-us-main.dv-scrolled > div:first-of-type{margin-top: 0 !important;}
 .dv-about-us-main-content {margin-left: 24rem}
 .dv-project-single-main-content{margin-left: 16rem;margin-right: 16rem;}
