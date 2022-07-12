@@ -194,14 +194,6 @@ body {
     .dv-project-single-main-content {margin-right: 5rem !important;margin-left: 5rem !important;}
     .dv-about-us-main-content > div {display: inline-flex !important;flex-direction: column !important;gap: 1rem;}
     .dv-home-second-section-text-grid {margin-bottom: auto;}
-    .dv-about-us-main-content > div > div{
-        display: inline-flex !important;
-        flex-direction: row !important;
-        align-items: center !important;
-        justify-content: start !important;
-    }
-
-
     .dv-single-projects-second-section {grid-template-columns: repeat(2, 1fr);}
     .dv-single-projects-second-section > img:last-of-type {grid-column: span 1 !important}
     .dv-category-slide {background-position: center !important;}
@@ -233,6 +225,13 @@ body {
     #dv-nav {width: 50% !important;}
     .dv-project-single-first-section  h1:first-of-type {display: flex !important;flex-wrap: wrap !important;}
 
+    .dv-about-us-main-content > div > div{
+        display: inline-flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: start !important;
+    }
+
     .dv-prl-3, .p-4, .p-3 {
         padding-bottom: 1rem !important;
         padding-right: 1rem !important;
@@ -240,7 +239,7 @@ body {
         padding-bottom: 1rem !important;
     }
 
-    body > section:first-of-type .dv-home-defualt-swipers .swiper-slide {
+    .dv-home-defualt-swipers .swiper-slide, .dv-category-page-slider .swiper-slide {
         background-size: cover !important;
         justify-content: start !important;
     }
