@@ -109,6 +109,9 @@ body {
 .dv-project-single-main-content{margin-left: 16rem;margin-right: 16rem;}
 .dv-home-first-section .swiper-slide {background-image: url("../img/first-section/img-1.png");}
 .dv-home-second-section-text-grid {margin-bottom: 10rem;}
+.dv-pointer-event-visible {pointer-events: visible;}
+.dv-zindex-2 {z-index: 2 !important;}
+.dv-inset-0 {inset: 0;}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(1), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(5) {background-image: url('../img/shop-page/img-1.png');}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(2), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(6) {background-image: url('../img/shop-page/img-2.png');}
 .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(3), .dv-shop-page-slider.dv-shop .swiper-slide:nth-of-type(7) {background-image: url('../img/shop-page/img-3.png');}
