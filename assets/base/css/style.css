@@ -195,7 +195,7 @@ body {
     .dv-about-us-main h1:first-of-type {font-size: 2rem !important;}
     .dv-about-us-main h6:first-of-type {font-size: 1rem !important;}
     .dv-about-us-main p:first-of-type {font-size: .75rem !important;}
-    .dv-project-single-main-content {margin-right: 5rem !important;margin-left: 5rem !important;}
+    .dv-project-single-main-content {margin-right: 0 !important;margin-left: 0 !important;}
     .dv-home-second-section-text-grid {margin-bottom: auto;}
     .dv-single-projects-second-section {grid-template-columns: repeat(2, 1fr);}
     .dv-single-projects-second-section > img:last-of-type {grid-column: span 1 !important}
