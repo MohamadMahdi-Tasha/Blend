@@ -100,18 +100,20 @@ body {
 .dv-h-90-vh {height: 90vh !important;}
 .dv-grid-col-1 {grid-column: span 1;}
 .dv-ml-1 {margin-left: 1rem !important;}
+.dv-about-us-main-content {margin-left: 20vw;margin-right: 20vw;}
 .dv-about-us-main {background-image: url('../img/about-us/img-1.png');}
-.dv-about-us-main > div:first-of-type{margin-top: 50rem !important;}
-.dv-about-us-paragraph-content {font-size: 18px !important;line-height: 25px !important;}
-.dv-about-us-main.dv-scrolled > div:first-of-type{margin-top: 0 !important;}
-.dv-about-us-main-content {margin-left: 18rem}
+.dv-about-us-main > div:first-of-type {margin-left: 5vw;margin-right: 5vw;margin-top: 50vh;}
+.dv-about-us-main h1:first-of-type {font-size: 5vw;}
+.dv-about-us-main h6:first-of-type {font-size: 3vw;}
+.dv-about-us-main p:first-of-type {font-size: 1vw;}
+.dv-about-us-main.dv-scrolled > div:first-of-type{margin-top: 0;}
 .dv-project-single-main-content{margin-left: 16rem;margin-right: 16rem;}
 .dv-home-first-section .swiper-slide {background-image: url("../img/first-section/img-1.png");}
 .dv-home-second-section-text-grid {margin-bottom: 10rem;}
 .dv-pointer-event-visible {pointer-events: visible;}
 .dv-zindex-2 {z-index: 2 !important;}
 .dv-inset-0 {inset: 0;}
-.dv-transition-dot9 {transition: .9s;}
+.dv-about-us-page-transition {transition: .7s;}
 .dv-shop-page-slider .swiper-slide.dv-item-1{background-image: url('../img/third-section/img-1.png');}
 .dv-shop-page-slider .swiper-slide.dv-item-2{background-image: url('../img/third-section/img-2.png');}
 .dv-shop-page-slider .swiper-slide.dv-item-3{background-image: url('../img/third-section/img-3.png');}
@@ -127,10 +129,10 @@ body {
 }
 
 .dv-about-us-main.dv-scrolled {
-    background-position: center;
     background-size: 100vw;
-    height: auto !important;
-    min-height: auto !important;
+    background-position: center;
+    height: 100vh !important;
+    min-height: 100vh !important;
 }
 
 .dv-wheat-pipe {
@@ -190,12 +192,10 @@ body {
 
 @media (max-width: 991px) {
     #dv-nav {padding: 1rem !important;}
-    .dv-about-us-main > div:first-of-type{margin-top: 0 !important;}
-    .dv-about-us-main {background-size: cover !important;min-height: 100vh !important;background-position: center !important}
-    .dv-about-us-main.dv-h-90-vh {min-height: 100vh !important;height: auto !important;}
-    .dv-about-us-main-content {margin-left: 12rem;margin-right: 12rem;}
+    .dv-about-us-main h1:first-of-type {font-size: 2rem !important;}
+    .dv-about-us-main h6:first-of-type {font-size: 1rem !important;}
+    .dv-about-us-main p:first-of-type {font-size: .75rem !important;}
     .dv-project-single-main-content {margin-right: 5rem !important;margin-left: 5rem !important;}
-    .dv-about-us-main-content > div {display: inline-flex !important;flex-direction: column !important;gap: 1rem;}
     .dv-home-second-section-text-grid {margin-bottom: auto;}
     .dv-single-projects-second-section {grid-template-columns: repeat(2, 1fr);}
     .dv-single-projects-second-section > img:last-of-type {grid-column: span 1 !important}
@@ -227,6 +227,20 @@ body {
     .dv-single-projects-second-section.gap-4 {gap: 1rem !important;}
     #dv-nav {width: 50% !important;}
     .dv-project-single-first-section  h1:first-of-type {display: flex !important;flex-wrap: wrap !important;}
+    .dv-about-us-main-content {margin-left: 0;margin-right: 0;}
+    .dv-about-us-main, .dv-about-us-main.dv-scrolled {
+        background-size: cover !important;
+        background-position: center !important;
+        height: auto !important;
+        min-height: auto !important;
+        padding: 1rem !important;
+    }
+
+    .dv-about-us-main > div:first-of-type {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .dv-about-us-main-content > div > div{
         display: inline-flex !important;
@@ -262,11 +276,9 @@ body {
     .dv-second-section-main > img:last-of-type{grid-column: span 2;}
     .dv-nav-header-links.d-none {display: block !important;}
     #dv-nav {width: 75% !important;}
-    .dv-about-us-main-content {margin-left: 0;margin-right: 0;}
     .dv-second-section-main {grid-template-columns: repeat(1, 1fr);}
     .dv-second-section-main > img,
     .dv-second-section-main > div{grid-column: span 1 !important;}
-    .dv-project-single-main-content {margin-right: 0 !important;margin-left: 0 !important;}
 }
 
 @media (max-width: 575px) {
