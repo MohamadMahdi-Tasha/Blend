@@ -111,7 +111,7 @@ body {
 .dv-pointer-event-visible {pointer-events: visible;}
 .dv-zindex-2 {z-index: 2 !important;}
 .dv-inset-0 {inset: 0;}
-.dv-transition-1 {transition: .9s;}
+.dv-transition-dot9 {transition: .9s;}
 .dv-shop-page-slider .swiper-slide.dv-item-1{background-image: url('../img/third-section/img-1.png');}
 .dv-shop-page-slider .swiper-slide.dv-item-2{background-image: url('../img/third-section/img-2.png');}
 .dv-shop-page-slider .swiper-slide.dv-item-3{background-image: url('../img/third-section/img-3.png');}
